@@ -1,2 +1,2 @@
-# Tudor Project : Four standard models and neural networks
-DM&amp;ML project Helena and Joost
+# Tudor Project : Four standard models and Neural Networks
+Authors: Elena Martinez Ferradal and Joost
