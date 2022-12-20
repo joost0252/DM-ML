@@ -66,7 +66,8 @@ These funcitons are stored in Functions and explained there in more detail.
 
 Here we are going to list the classes used across the colab notebook and what they do. 
 
-* Net nn
+* Net() nn
+* Data()
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
