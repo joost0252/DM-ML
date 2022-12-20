@@ -69,6 +69,14 @@ Here we are going to list the classes used across the colab notebook and what th
 * Net() nn
 * Data()
 
+The Data class has three methods:
+
+__init__: This is the constructor method that is called when an object of the Data class is created. It initializes the object with two instance variables: x and y, which are created from the X_train and y_train numpy arrays, respectively. It also sets the len variable to the number of rows in x.
+
+__getitem__: This method returns a tuple containing the index-th row of x and the index-th row of y. It is called when the object is indexed (e.g., data[index]).
+
+__len__: This method returns the length of the dataset, which is stored in the len variable. It is called when the len() function is applied to the object (e.g., len(data)).
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
