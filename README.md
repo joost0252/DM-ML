@@ -1,3 +1,5 @@
+<img src="https://camo.githubusercontent.com/197d566e6ccf2e0f8c8f3e6fc1e2269c529674c119bb0d1573eaaa389f0c4ab3/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f372f37372f4c6f676f5f4845435f4c617573616e6e652e706e67" width="200" height="90" />
+
 # Tudor Project : Four standard models and Neural Networks ! 
 #### Authors: *Elena Martinez Ferradal and Joost Dijkstra*
 
@@ -35,7 +37,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-These are the models used to classify texts difficulty which are divided in 5 sections:
+The purpose of this project is to predit the difficult level of given specific French Texts. Difficulty level is defined in six classes of international langauge levels (A1 to C2). 
+
+These are the models used to classify texts difficulty in  this project. They are divided in 5 sections:
 * Logistic Regression
 * KNN 
 * Decision Tree Classifier
