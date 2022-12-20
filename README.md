@@ -44,6 +44,7 @@ These are the models used to classify texts difficulty in  this project. They ar
 * Decision Tree Classifier🌳
 * RandomForest Classifer 🌳🌳🌳
 * Neural Networks with PCA 🌀
+
 The first four models are done withotut any data cleaning techiniques, the only data preparation is a simple vectorization. 
 For Neural Networks, best results werer achieved with PCA (dimensionality reduction) any other complementary techinique was disregarded due to lower the accuracy. 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -52,10 +53,10 @@ For Neural Networks, best results werer achieved with PCA (dimensionality reduct
 
 Here we are going to list the functions used across the colab notebook and explain briefly what they do: 
 
-* One hote Encoding
 * Evaluate
-* DataLoader
-* Losses
+* Encode_difficulty
+* Prepare_submission
+* Get_prediction_probabilities
 
 These funcitons are stored in Functions and explained there in more detail. 
 
