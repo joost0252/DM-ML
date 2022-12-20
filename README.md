@@ -54,9 +54,22 @@ For Neural Networks, best results werer achieved with PCA (dimensionality reduct
 Here we are going to list the functions used across the colab notebook and explain briefly what they do: 
 
 * Evaluate
+
+The function uses the precision_score, recall_score, f1_score, confusion_matrix, and accuracy_score functions from the sklearn.metrics module to compute these metrics. The average parameter specifies how the scores should be averaged across the different classes, with the 'weighted' option indicating that the scores should be weighted by the number of true samples in each class.
+
+The function prints the computed metrics to the console for easy visualization. You can use this function to evaluate the performance of a classifier on a test set and identify areas for improvement.
+
 * Encode_difficulty
+
+This function encodes the difficulty column of a corpus data frame as ordinal values. It converts categorical variables into numerical values, which can be used as input to models that do not handle categorical data natively. The encoded values retain the ordinal relationships between the categories, meaning that the encoded values can be treated as numerical data in certain contexts (e.g., for comparison purposes).
+
 * Prepare_submission
+
+The purpose of this function is to prepare the data frame in a format that conforms to the submission requirements of the Kaggle competition. The function ensures that the difficulty column has the correct categories and that the data frame does not contain any unnecessary columns.
+
 * Get_prediction_probabilities
+
+This function takes in a pipeline object and a data frame containing a 'sentence' column. It returns an array of the predicted class probabilities for each sentence, as obtained by calling the predict_proba method on the pipeline object and taking the maximum probability along the row-wise dimension of the resulting array. The function also prints the minimum and maximum values of the extracted probabilities.
 
 These funcitons are stored in Functions and explained there in more detail. 
 
