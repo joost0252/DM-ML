@@ -66,17 +66,13 @@ These funcitons are stored in Functions and explained there in more detail.
 
 Here we are going to list the classes used across the colab notebook and what they do. 
 
-* Net() nn
+* Net()
+
+The Net class can be used to define a simple feedforward neural network with two hidden layers for binary classification tasks. To use the model, you would first create an object of the Net class, specifying the number of input units (D_in), the number of hidden units (H), and the number of output units (D_out). Then, you would pass an input tensor through the model by calling the forward method on the object, which would return the output of the model.
+
 * Data()
 
-The Data class has three methods:
-
-__init__: This is the constructor method that is called when an object of the Data class is created. It initializes the object with two instance variables: x and y, which are created from the X_train and y_train numpy arrays, respectively. It also sets the len variable to the number of rows in x.
-
-__getitem__: This method returns a tuple containing the index-th row of x and the index-th row of y. It is called when the object is indexed (e.g., data[index]).
-
-__len__: This method returns the length of the dataset, which is stored in the len variable. It is called when the len() function is applied to the object (e.g., len(data)).
-
+The Data class is useful for creating a dataset object that can be used to train a PyTorch model. The __getitem__ and __len__ methods allow the dataset to be indexed and iterated over in a consistent way, making it easy to use in a PyTorch data loader.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
