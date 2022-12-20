@@ -39,11 +39,11 @@
 The purpose of this project is to predit the difficult level of given specific French Texts. Difficulty level is defined in six classes of international langauge levels (A1 to C2). 
 
 These are the models used to classify texts difficulty in  this project. They are divided in 5 sections:
-* Logistic Regression
-* KNN 
-* Decision Tree Classifier
-* RandomForest Classifer 
-* Neural Networks with PCA
+* Logistic Regression 📈
+* KNN 📌
+* Decision Tree Classifier🌳
+* RandomForest Classifer 🌳🌳🌳
+* Neural Networks with PCA 🌀
 The first four models are done withotut any data cleaning techiniques, the only data preparation is a simple vectorization. 
 For Neural Networks, best results werer achieved with PCA (dimensionality reduction) any other complementary techinique was disregarded due to lower the accuracy. 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
