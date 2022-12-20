@@ -18,8 +18,14 @@
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
+       <ul>
+        <li><a href="#recommendations-for-evaluation">Recommendation</a></li>
+      </ul>
     </li>
     <li><a href="#results">Results</a></li>
+  </li>
+      </li>
+    <li><a href="#video">Video</a></li>
   </li>
   </ol>
 </details>
@@ -74,6 +80,11 @@ The only prerequisities to run the code in the Collab Notebook are:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+### Recommendations for evaluation
+
+1. Read this Readme
+2. Open the Google Collab (dont' run the code it will take 20 min)
+3. Watch the video with the code on one side
 
 
 <!-- RESULTS -->
@@ -92,5 +103,15 @@ The only prerequisities to run the code in the Collab Notebook are:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- VIDEO -->
+## Video
+
+
+
+wwww.youtube.com
+
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
