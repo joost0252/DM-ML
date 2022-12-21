@@ -114,11 +114,10 @@ The only prerequisities to run the code in the Collab Notebook are:
 
 ||Logistic regression|KNN|Decision Tree|Random Forest|Neural Networks|
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|Precision|0.4656|0.3940|0.3208|0.4577|0.4802
-|Recall|0.4667|0.3373|0.3079|0.4458|0.4789
-|F1-score|0.4640|0.4111|0.3246|0.4395|0.4844
+|Precision|0.4656|0.3940|0.3208|0.4577|0.4691
+|Recall|0.4667|0.3373|0.3079|0.4458|0.4896
+|F1-score|0.4640|0.4111|0.3246|0.4395|0.4891844
 |Accuracy |0.4667|0.3490|0.3208|0.4458|0.4896
-
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
