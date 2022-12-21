@@ -42,7 +42,7 @@ These are the models used to classify texts difficulty in  this project. They ar
 * Logistic Regression 📈
 * KNN 📌
 * Decision Tree Classifier🌳
-* RandomForest Classifer 🌳🌳🌳
+* RandomForest Classifer 🌳🌳
 * Neural Networks with PCA 🌀
 
 The first four models are done withotut any data cleaning techiniques, the only data preparation is a simple vectorization. 
@@ -94,7 +94,7 @@ The Data class is useful for creating a dataset object that can be used to train
 
 The only prerequisities to run the code in the Collab Notebook are:
 
-1. To upload the csv files required to train your models (training data) and do the predicitons (unlabel data).Optionally there is also a sample submission csv file in case you need to uplad your results into Kaggle. 
+1. To upload the csv files required to train your models (training data), the functions file (functions) and do the predicitons (unlabel data).Optionally there is also a sample submission csv file in case you need to uplad your results into Kaggle. 
 2. To download all the packages that are at the beginning of the notebook.
 3. As explained before, the functions are in a separate file for clarity and will need to be imported. 
 
