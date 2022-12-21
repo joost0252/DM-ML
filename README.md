@@ -121,7 +121,6 @@ The only prerequisities to run the code in the Collab Notebook are:
 
 
 
-	F1_Score: 0.4395
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- VIDEO -->
