@@ -46,7 +46,7 @@ These are the models used to classify texts difficulty in  this project. They ar
 * Neural Networks with PCA 🌀
 
 The first four models are done withotut any data cleaning techiniques, the only data preparation is a simple vectorization. 
-For Neural Networks, best results werer achieved with PCA (dimensionality reduction) any other complementary techinique was disregarded due to lower the accuracy. 
+For Neural Networks, best results werer achieved with PCA (dimensionality reduction) any other complementary techinique was disregarded due to lower the accuracy. (see documentation folder) 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Functions
