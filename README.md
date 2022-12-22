@@ -96,7 +96,7 @@ The only prerequisities to run the code in the Collab Notebook are:
 
 1. To upload the csv files required to train your models (training data), the functions file (functions) and do the predicitons (unlabel data).Optionally there is also a sample submission csv file in case you need to uplad your results into Kaggle. 
 2. To download all the packages that are at the beginning of the notebook.
-3. As explained before, the functions are in a separate file for clarity and will need to be imported. 
+ 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -105,6 +105,7 @@ The only prerequisities to run the code in the Collab Notebook are:
 1. Read this Readme
 2. Open the Google Collab (dont' run the code it will take 20 min)
 3. Watch the video with the code on one side
+4. If interested in the **documentation** folder you will find two versions of our mains notebooked with failed attemps to improve the accuracy that are also explained during the video. 
 
 
 <!-- RESULTS -->
